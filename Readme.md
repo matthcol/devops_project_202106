@@ -1,9 +1,16 @@
+Repo front M (front api movie Angular):
+https://github.com/matthcol/movie_angular 
+
 Repo api M (api rest java spring on movies)
 https://github.com/matthcol/movieapijava2021
 
 Repo DB (scripts SQL mysql/mariadb/postgresql for a db movie)
+https://github.com/matthcol/dbmovie
 
 -------------  timeline dev -------------------
+front M branch devf1 : 
+	
+	list movies + form to add new movie
 
 DB branch dev1 : table movies
 
