@@ -23,7 +23,7 @@ api M branch master :
 	
 	- GET /api/movies/byTitle?t=Spectre
 	
-	- POST /api/movies
+	- POST /api/movies (BODY: new movie)
 
 api M branches devm2a (4 tests NOK), devm2b (1 test nok), devm2c (ok) :
 	
@@ -35,7 +35,7 @@ api M branches devm2a (4 tests NOK), devm2b (1 test nok), devm2c (ok) :
 	
 	- GET /api/movies/byYearRange?ma=1980
 	
-	- PUT /api/movies
+	- PUT /api/movies (BODY: movie modified)
 	
 	- DELETE /api/movies/1
 	
@@ -49,7 +49,7 @@ api M branch dev3a (tests nok), dev3b (tests ok) : new features /api/stars
 	
 	- GET /api/artists?n=Eastwood
 	
-	- POST /api/artists
+	- POST /api/artists (BODY: artist)
 
 DB branch dev3 : column id_director
 
@@ -58,6 +58,6 @@ api M branch ? : new features to handle director (no push here)
 DB branch dev4 : table play
 
 api M branch devm4a : new features to handle actors
-	- GET /api/artists/1  (now give actors and directors)
+	- GET /api/movies/1  (now give actors and directors)
 	- PUT /api/movies/director?mid=1&did=3
-	- PUT /api/movies/actors?mid=1
+	- PUT /api/movies/actors?mid=1 (BODY: actors)
