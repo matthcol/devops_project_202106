@@ -41,7 +41,15 @@ api M branches devm2a (4 tests NOK), devm2b (1 test nok), devm2c (ok) :
 	
 DB branch dev2 : table stars
 
-api M branch ? : TODO new features /api/stars
+api M branch dev3a (tests nok), dev3b (tests ok) : new features /api/stars
+
+	- GET /api/artists
+	
+	- GET /api/artists/1
+	
+	- GET /api/artists?n=Eastwood
+	
+	- POST /api/artists
 
 DB branch dev3 : column id_director
 
