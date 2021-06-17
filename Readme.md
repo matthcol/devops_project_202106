@@ -53,8 +53,11 @@ api M branch dev3a (tests nok), dev3b (tests ok) : new features /api/stars
 
 DB branch dev3 : column id_director
 
-api M branch ? : TODO new features to handle director
+api M branch ? : new features to handle director (no push here)
 
 DB branch dev4 : table play
 
-api M branch ? : TODO new features to handle actors
+api M branch devm4a : new features to handle actors
+	- GET /api/artists/1  (now give actors and directors)
+	- PUT /api/movies/director?mid=1&did=3
+	- PUT /api/movies/actors?mid=1
