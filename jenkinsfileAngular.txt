@@ -1,6 +1,7 @@
 // To work with this pipeline:
 // - install plugin NodeJs
 // - configure tool nodejs with at least nodejs10
+//		* you can add Angular in global packages : @angular/cli@10.0
 // - use/adapt following pipeline declaring params
 // 		* FRONT_GIT_URL : git url of front sources
 //		* FRONT_GIT_BRANCH : git branch of front sources
